@@ -48,8 +48,8 @@ body{
 }
 /* fix menu design */
 .fix-menu{
-    width: 400px;
-    height: 350px;
+    width: 450px;
+    height: 270px;
     border-radius: 10px;
     background-color: #161616;
     display: flex;
@@ -85,6 +85,8 @@ body{
 .posts img{
     width: 100%;
 }
+
+/* inner blog post button */
 .simple-btn{
     width: 140px;
     height: 35px;
@@ -100,7 +102,7 @@ body{
 .blog-posts{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
+    grid-gap: 15px;
 }
 /* footer design css */
 .footer-area{
@@ -121,4 +123,47 @@ body{
 .social-icon{
     font-size: 20px;
     padding: 0 15px;
+}
+/* responsive for mobile view */
+@media screen and (max-width: 576px) {
+    .top-container{
+        /* display: flex; */
+        flex-direction: column;
+        margin: 20px;
+        border-radius: 15px;
+        background-color: #161616;
+        justify-content: space-between;
+        padding: 15px 15px 0 15px;
+        /* for align all text in center */
+        text-align: center;
+    }
+    .half-width{
+        width: 90%;
+    }
+    .blog-area{
+        flex-direction: column;
+    }
+    .fix-menu{
+        background-color: white;
+        width:auto;
+        margin-bottom: 20px;
+    }
+    .blog-area{
+        margin: 20px;
+        padding: 0;
+    }
+    .blog-posts {
+        margin: 20px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .fix-menu a{
+        background-color: #E8E8E8;
+    }
+    /* mobile footer pages */
+    #pages{
+        flex-direction: column;
+    }
+    #pages span{
+        margin: 10px;
+    }
 }
