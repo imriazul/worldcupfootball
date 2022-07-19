@@ -42,3 +42,61 @@ body{
     font-size: 16px;
 }
 /* featured area css end */
+.blog-area{
+    display: flex;
+    margin: 50px 100px;
+}
+.fix-menu{
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    background-color: #161616;
+}
+/* fix menu design */
+.fix-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+}
+.fix-menu a{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+/* selected menu hilight*/
+#blog-menu{
+    background-color: red;
+    color: white;
+}
+/* blog post desigb */
+.blog-posts{
+    margin-left: 10px;
+}
+.posts{
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+}
+.post-text{
+    margin: 20px;
+}
+.posts img{
+    width: 100%;
+}
+.simple-btn{
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid #161616;
+    border-radius: 5px;
+}
+/* blog post grid design */
+.blog-posts{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
