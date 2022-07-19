@@ -93,6 +93,9 @@ body{
     border-radius: 5px;
     font-weight: bold;
 }
+.gap{
+    margin: 5px;
+}
 /* blog post grid design */
 .blog-posts{
     display: grid;
