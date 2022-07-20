@@ -162,6 +162,9 @@ body{
         /* for align all text in center */
         text-align: center;
     }
+    h1{
+        font-size: 25px;
+    }
     #illip-m{
         white-space: nowrap; 
         overflow: hidden;

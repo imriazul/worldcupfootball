@@ -159,6 +159,9 @@ a{
         overflow: hidden;
         text-overflow: ellipsis;
     }
+    h1{
+        font-size: 25px;
+    }
     .half-width{
         height: 50%;
         width: 90%;
