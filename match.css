@@ -1,6 +1,9 @@
 /* --------------------------------------------------*{
     border: .5px solid red;
 } -------------------------------------------------*/
+html {
+    scroll-behavior: smooth;
+  }
 body{
     margin: 0;
     padding: 0;
@@ -30,6 +33,10 @@ a{
 }
 .fetured-text{
     align-self: center;
+}
+.fetured-text a{
+    text-decoration: none;
+    color: white;
 }
 .watch-btn{
     width: 180px;
