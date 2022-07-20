@@ -11,6 +11,7 @@ body{
     color: white;
     font-size: 20px;
     font-weight: bold;
+    border: none;
 
 }
 /* featured area css start */
@@ -130,13 +131,12 @@ body{
 /* responsive start from mobile view */
 @media screen and (max-width: 576px) {
     .top-container{
-        /* height: 80vh; */
         flex-direction: column;
         margin: 20px;
         border-radius: 15px;
         background-color: #161616;
         justify-content: space-between;
-        padding: 15px 15px 0 15px;
+        padding: 25px 15px 0 15px;
         /* for align all text in center */
         text-align: center;
     }
