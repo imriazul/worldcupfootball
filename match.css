@@ -1,6 +1,6 @@
-/* *{
+/* --------------------------------------------------*{
     border: .5px solid red;
-} */
+} -------------------------------------------------*/
 body{
     margin: 0;
     padding: 0;
@@ -47,7 +47,6 @@ body{
     display: flex;
     margin: 50px 100px;
 }
-/* fix menu design */
 .fix-menu{
     width: 450px;
     height: 270px;
@@ -68,43 +67,33 @@ body{
     text-align: center;
 }
 /* selected menu hilight*/
-#blog-menu{
+#upcoming-menu{
     background-color: red;
     color: white;
 }
-/* blog post desigb */
-.blog-posts{
-    margin-left: 10px;
-    width: 100%;
-}
-.posts{
+.team{
     border: 1px solid #E8E8E8;
     border-radius: 10px;
+    padding: 10px;
+    text-align: center;
 }
-.post-text{
-    margin: 20px;
+.team-flag{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
-.posts img{
-    width: 100%;
+.vs{
+  font-size: 25px;
 }
-
-/* inner blog post button */
-.simple-btn{
-    width: 140px;
-    height: 35px;
-    background-color: white;
-    border: 1px solid #161616;
-    border-radius: 5px;
-    font-weight: bold;
+.team img{
+    width: 45%;
 }
-.gap{
-    margin: 5px;
-}
-/* blog post grid design */
-.blog-posts{
+.team-list{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 15px;
+    grid-gap: 20px;
+    width: 100%;
+    margin-left: 20px;
 }
 /* footer design css */
 .footer-area{
@@ -132,7 +121,8 @@ body{
 /* responsive start from mobile view */
 @media screen and (max-width: 576px) {
     .top-container{
-        flex-direction: column;
+        /* colomn reverse for bonus marks */
+        flex-direction: column-reverse;
         margin: 20px;
         border-radius: 15px;
         background-color: #161616;
@@ -141,6 +131,9 @@ body{
         /* for align all text in center */
         text-align: center;
     }
+    /* ---------------
+    illipsis in mobile view its for bonus marks 
+   --------------*/
     #illip-m{
         white-space: nowrap; 
         overflow: hidden;
@@ -162,7 +155,8 @@ body{
         margin: 20px;
         padding: 0;
     }
-    .blog-posts {
+    .team-list {
+        width: auto;
         margin: 20px;
         grid-template-columns: repeat(1, 1fr);
     }
@@ -187,7 +181,7 @@ body{
         padding-bottom: 0;
         border-radius: 15px;
     }
-    .blog-posts {
+    .team-list {
         margin: 20px;
         grid-template-columns: repeat(2, 1fr);
     }
@@ -205,22 +199,6 @@ body{
     }
     .fx{
         width: 20%;
-    }
-    #last-post{
-        display: none;
-    }
-    /* button only for tab view */
-    #view-all{
-        display: flex;
-        justify-content: center;
-    }
-    #view-all-btn{
-        width: 150px;
-        height: 50px;
-        border-radius: 5px;
-        border: none;
-        margin-top: -30px;
-        margin-bottom: 50px;
     }
     #pages{
         display: grid;
