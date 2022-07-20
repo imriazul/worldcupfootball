@@ -5,6 +5,9 @@ body{
     margin: 0;
     padding: 0;
 }
+a{
+    color: #B9B9B9;
+}
 /* common css */
 .btn{
     background-color: #DD0000;
