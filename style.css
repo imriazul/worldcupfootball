@@ -7,6 +7,8 @@ html {
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
+
 }
 /* common css */
 .btn{
@@ -82,7 +84,7 @@ body{
 /* blog post desigb */
 .blog-posts{
     margin-left: 10px;
-    width: 100%;
+    width: auto;
 }
 .posts{
     border: 1px solid #E8E8E8;
