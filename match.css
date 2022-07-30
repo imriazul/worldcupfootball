@@ -224,13 +224,9 @@ a{
         width: 20%;
     }
     #pages{
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        display: flex;
         grid-gap: 15px;
-        /* try to center 2nd line of links */
+        justify-content: center;
         align-items: center;
-        /* not go center 
-        I tried justify all syntex and also align all syntex
-        */
     }
 }
